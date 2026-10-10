@@ -1,0 +1,4 @@
+.worktrees/
+.vitrinka/
+node_modules/
+.preview/
