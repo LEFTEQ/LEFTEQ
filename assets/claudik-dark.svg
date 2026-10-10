@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
+  <title id="title">ClaudikPublic</title><desc id="desc">My development setup, shared.</desc>
+  <rect width="640" height="220" rx="12" fill="#30252a"/>
+  <g transform="translate(540 42)" stroke="#e6bbc3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".7"><rect x="5" y="8" width="38" height="33" rx="4"/><path d="m13 19 7 6-7 6m13 0h10"/></g>
+  <text x="32" y="113" fill="#e6bbc3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="700" letter-spacing="-1">ClaudikPublic</text>
+  <text x="34" y="164" fill="#e6bbc3" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="19">My development setup, shared.</text>
+</svg>

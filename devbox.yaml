@@ -1,0 +1,17 @@
+project: lefteq-profile
+
+resources:
+  memory: 1G
+
+apps:
+  preview:
+    ports: [web]
+    cmd: bun scripts/preview.ts
+    sync: .
+    sync_ignores: [".env", ".env.*", ".worktrees", ".vitrinka", ".preview", "node_modules"]
+
+scripts:
+  artwork:
+    cmd: bun scripts/artwork.ts --check
+    up: false
+    profile: small

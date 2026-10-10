@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
+  <title id="title">vitrinka</title><desc id="desc">Visual feedback, connected.</desc>
+  <rect width="640" height="220" rx="12" fill="#202542"/>
+  <g transform="translate(540 42)" stroke="#c1c3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".7"><rect x="5" y="8" width="38" height="33" rx="4"/><path d="M5 18h38M14 25h8v9h-8m15-9h7m-7 6h7"/></g>
+  <text x="32" y="113" fill="#c1c3ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="700" letter-spacing="-1">vitrinka</text>
+  <text x="34" y="164" fill="#c1c3ff" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="19">Visual feedback, connected.</text>
+</svg>

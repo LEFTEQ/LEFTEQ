@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
+  <title id="title">Pultík</title><desc id="desc">Your macOS command center.</desc>
+  <rect width="640" height="220" rx="12" fill="#182c41"/>
+  <g transform="translate(540 42)" stroke="#a9d5f4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".7"><rect x="5" y="7" width="38" height="36" rx="4"/><path d="M5 17h38M13 12h1m5 0h1m5 0h1M13 26h22M13 34h15"/></g>
+  <text x="32" y="113" fill="#a9d5f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="700" letter-spacing="-1">Pultík</text>
+  <text x="34" y="164" fill="#a9d5f4" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="19">Your macOS command center.</text>
+</svg>
