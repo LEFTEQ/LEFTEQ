@@ -12,6 +12,7 @@ Build LEFTEQ's personal GitHub profile README as a developer playground, inspire
 | D7 | Personal work | Pultík | Public personal tooling; avoid invented community affiliations. |
 | D4/D8 | Motion | One subtle animated hero | Adapt orbital artwork to B; no typing loop, snake, or stats wall. |
 | D5/D9 | Contact | LinkedIn + Instagram | Explicit public destinations provided by user. |
+| D10 | Výbava card | Removed, superseding D3/D6's Výbava entry | `henderson-tech/vybava` went private 2026-10-10; its links 404 for the public. |
 
 ## Assumptions
 - Root README.md in public LEFTEQ/LEFTEQ is the surface, not GitHub Pages.
