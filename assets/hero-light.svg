@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Hello, I’m Lukáš. Products. Tools. Less complexity.</title>
+  <desc id="desc">LEFTEQ — independent builder. A blue engineering grid with quiet orbital geometry.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 H 0 V 32" fill="none" stroke="#c7dbea" stroke-opacity=".5"/></pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="398" rx="12"/></clipPath>
+  </defs>
+  <style>
+    .orbit { transform-box: view-box; transform-origin: 1015px 210px; }
+    .orbit { animation: settle 4.5s ease-in-out both; } @keyframes settle { from { transform: rotate(-16deg); } to { transform: rotate(0deg); } }
+    @media (prefers-reduced-motion: reduce) { .orbit { animation: none; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="#edf5fc"/>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+    <g fill="#3d5e7c"><circle cx="48" cy="42" r="4"/><circle cx="66" cy="42" r="4"/><circle cx="84" cy="42" r="4"/></g>
+    <text x="1148" y="47" text-anchor="end" fill="#3d5e7c" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" letter-spacing="1">LEFTEQ / builder’s workspace</text>
+    <g class="orbit" fill="none" stroke-width="1.5">
+      <ellipse cx="1015" cy="210" rx="156" ry="156" stroke="#316b9e"/>
+      <ellipse cx="1015" cy="210" rx="149" ry="86" transform="rotate(35 1015 210)" stroke="#b1ccdf"/>
+      <path d="M 850 210 H 1180 M 1015 45 V 375" stroke="#c7dbea" stroke-dasharray="4 8"/>
+      <circle cx="912" cy="93" r="5" fill="#176851" stroke="none"/>
+      <circle cx="875" cy="187" r="4" fill="#176851" stroke="none"/>
+    </g>
+    <text x="48" y="183" fill="#102b45" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="62" font-weight="700" letter-spacing="-3">Hello, I’m Lukáš.</text>
+    <text x="50" y="242" fill="#3d5e7c" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="25">Products. Tools. Less complexity.</text>
+    <path d="M 50 296 H 82" stroke="#176851" stroke-width="3"/>
+    <text x="96" y="302" fill="#176851" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="17">Independent builder</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="398" rx="12" fill="none" stroke="#b1ccdf"/>
+</svg>
