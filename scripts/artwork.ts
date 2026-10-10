@@ -13,7 +13,6 @@ const projects = [
   { id: "reservine", name: "Reservine", label: "Bookings. Payments. Access.", icon: "calendar", dark: { bg: "#172c2b", ink: "#9ce7c9" }, light: { bg: "#e9f7f0", ink: "#216147" } },
   { id: "vitrinka", name: "vitrinka", label: "Visual feedback, connected.", icon: "board", dark: { bg: "#202542", ink: "#c1c3ff" }, light: { bg: "#f0efff", ink: "#4f468a" } },
   { id: "pultik", name: "Pultík", label: "Your macOS command center.", icon: "menu", dark: { bg: "#182c41", ink: "#a9d5f4" }, light: { bg: "#ebf4fc", ink: "#285a80" } },
-  { id: "vybava", name: "Výbava", label: "Tools that travel with you.", icon: "tool", dark: { bg: "#242b22", ink: "#c6d9a2" }, light: { bg: "#f0f5e9", ink: "#4d632e" } },
   { id: "claudik", name: "ClaudikPublic", label: "My development setup, shared.", icon: "terminal", dark: { bg: "#30252a", ink: "#e6bbc3" }, light: { bg: "#fbf0f3", ink: "#824456" } },
 ] as const;
 
@@ -61,7 +60,6 @@ function icon(kind: (typeof projects)[number]["icon"]) {
     case "calendar": return '<rect x="7" y="11" width="35" height="32" rx="4"/><path d="M7 21h35M16 6v10M33 6v10m-18 17 6 6 12-12"/>';
     case "board": return '<rect x="5" y="8" width="38" height="33" rx="4"/><path d="M5 18h38M14 25h8v9h-8m15-9h7m-7 6h7"/>';
     case "menu": return '<rect x="5" y="7" width="38" height="36" rx="4"/><path d="M5 17h38M13 12h1m5 0h1m5 0h1M13 26h22M13 34h15"/>';
-    case "tool": return '<path d="m30 6 2 11 11 2a14 14 0 0 1-17 13L14 44 5 35l12-12A14 14 0 0 1 30 6Z"/>';
     case "terminal": return '<rect x="5" y="8" width="38" height="33" rx="4"/><path d="m13 19 7 6-7 6m13 0h10"/>';
   }
 }

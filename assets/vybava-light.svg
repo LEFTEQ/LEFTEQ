@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
-  <title id="title">Výbava</title><desc id="desc">Tools that travel with you.</desc>
-  <rect width="640" height="220" rx="12" fill="#f0f5e9"/>
-  <g transform="translate(540 42)" stroke="#4d632e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".7"><path d="m30 6 2 11 11 2a14 14 0 0 1-17 13L14 44 5 35l12-12A14 14 0 0 1 30 6Z"/></g>
-  <text x="32" y="113" fill="#4d632e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="700" letter-spacing="-1">Výbava</text>
-  <text x="34" y="164" fill="#4d632e" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="19">Tools that travel with you.</text>
-</svg>

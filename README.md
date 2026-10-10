@@ -45,12 +45,7 @@ From everyday services to developer workflows, I care about making complex thing
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/henderson-tech/vybava"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/vybava-dark.svg"><img src="assets/vybava-light.svg" alt="Výbava — tools that travel with you" width="500"></picture></a>
-<p>Portable engineering tools, skills, and diagnostics that travel between projects.</p>
-<p><a href="https://github.com/henderson-tech/vybava">Explore Výbava ↗</a></p>
-</td>
-<td width="50%" valign="top">
+<td width="100%" valign="top">
 <a href="https://github.com/LEFTEQ/ClaudikPublic"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/claudik-dark.svg"><img src="assets/claudik-light.svg" alt="ClaudikPublic — my development setup, shared" width="500"></picture></a>
 <p>My public development setup: skills, commands, hooks, and documentation.</p>
 <p><a href="https://github.com/LEFTEQ/ClaudikPublic">Explore the setup ↗</a></p>
