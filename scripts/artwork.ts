@@ -12,6 +12,8 @@ const projects = [
   { id: "fixit", name: "FixIt.", label: "Help for your home.", icon: "house", dark: { bg: "#361d25", ink: "#ff9089" }, light: { bg: "#fff0ee", ink: "#a33235" } },
   { id: "reservine", name: "Reservine", label: "Bookings. Payments. Access.", icon: "calendar", dark: { bg: "#172c2b", ink: "#9ce7c9" }, light: { bg: "#e9f7f0", ink: "#216147" } },
   { id: "vitrinka", name: "vitrinka", label: "Visual feedback, connected.", icon: "board", dark: { bg: "#202542", ink: "#c1c3ff" }, light: { bg: "#f0efff", ink: "#4f468a" } },
+  { id: "eve", name: "Eve", label: "My AI development layer.", icon: "orbit", dark: { bg: "#28253d", ink: "#d1bffc" }, light: { bg: "#f3effc", ink: "#61449b" } },
+  { id: "devbox", name: "Devbox", label: "Build here. Run there.", icon: "box", dark: { bg: "#172e3a", ink: "#9edbec" }, light: { bg: "#eaf7fc", ink: "#22627c" } },
   { id: "pultik", name: "Pultík", label: "Your macOS command center.", icon: "menu", dark: { bg: "#182c41", ink: "#a9d5f4" }, light: { bg: "#ebf4fc", ink: "#285a80" } },
   { id: "claudik", name: "ClaudikPublic", label: "My development setup, shared.", icon: "terminal", dark: { bg: "#30252a", ink: "#e6bbc3" }, light: { bg: "#fbf0f3", ink: "#824456" } },
 ] as const;
@@ -61,6 +63,8 @@ function icon(kind: (typeof projects)[number]["icon"]) {
     case "board": return '<rect x="5" y="8" width="38" height="33" rx="4"/><path d="M5 18h38M14 25h8v9h-8m15-9h7m-7 6h7"/>';
     case "menu": return '<rect x="5" y="7" width="38" height="36" rx="4"/><path d="M5 17h38M13 12h1m5 0h1m5 0h1M13 26h22M13 34h15"/>';
     case "terminal": return '<rect x="5" y="8" width="38" height="33" rx="4"/><path d="m13 19 7 6-7 6m13 0h10"/>';
+    case "orbit": return '<circle cx="24" cy="24" r="16"/><ellipse cx="24" cy="24" rx="22" ry="9" transform="rotate(-35 24 24)"/><circle cx="24" cy="24" r="3"/>';
+    case "box": return '<path d="m24 5 18 10v20L24 45 6 35V15Zm0 20 18-10M24 25 6 15m18 10v20M6 15 24 5l18 10"/>';
   }
 }
 
