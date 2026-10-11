@@ -19,7 +19,7 @@ The hero uses one 4.5-second transform animation, then rests. Text is visible im
 
 ```sh
 devbox setup --apply --json
-devbox url lefteq-profile-feat-personal-profile
+devbox url
 ```
 
 The dependency-free Bun preview serves the real README and assets with GitHub-like styling. It is a review aid, not a separate portfolio website or a guarantee of GitHub rendering. Keep the preview running for hand-testing.
@@ -27,6 +27,22 @@ The dependency-free Bun preview serves the real README and assets with GitHub-li
 ## Content
 
 Use verified public destinations. PultikPublic and ClaudikPublic are public mirrors; avoid describing them as distribution channels or claiming usage from mirror pushes. Do not link private application source or internal PRs. Contact destinations are the LinkedIn and Instagram URLs explicitly approved in the decision log.
+
+## Contribution heatmap
+
+```sh
+bun scripts/contributions.ts
+```
+
+The generator reads GitHub’s public, unauthenticated HTML calendar for the years spanning the last 12 months. It publishes only dates, counts, and intensity levels, including anonymous private-work counts already visible publicly. No token or private repository access is used. Contributions include more than commits.
+
+The daily `Refresh public contribution chart` workflow regenerates both palettes at 06:17 UTC and commits only the two chart assets with its repository-scoped `GITHUB_TOKEN`. Run it manually with `workflow_dispatch` if needed. GitHub can delay scheduled jobs. The chart includes its covered dates so stale data is visible.
+
+Calendar markup changes, HTTP errors, missing tooltip counts, or incomplete date coverage fail the generator instead of silently replacing the chart with zeros. Action dependencies are SHA-pinned. Source permissions stay read-only outside the refresh job’s repository-content write permission.
+
+## Systems showcase
+
+Eve and Devbox link to public introductions in `docs/eve.md` and `docs/devbox.md`, not their private sources or internal deployments. vitrinka links to the public kit. Keep descriptions factual and avoid presenting private tools as publicly installable services.
 
 ## Rendering
 
