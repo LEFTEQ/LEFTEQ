@@ -1,17 +1,18 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/henderson-tech/devbox-schema/main/v2/devbox.schema.json
+version: 2
 project: lefteq-profile
-
 resources:
   memory: 1G
-
+checkouts:
+  preview:
+    from: .
+    sync_ignores: [".env", ".env.*", ".worktrees", ".vitrinka", ".preview", "node_modules"]
 apps:
   preview:
     ports: [web]
     cmd: bun scripts/preview.ts
-    sync: .
-    sync_ignores: [".env", ".env.*", ".worktrees", ".vitrinka", ".preview", "node_modules"]
-
+    ready: none
 scripts:
   artwork:
-    cmd: bun scripts/artwork.ts --check
-    up: false
-    profile: small
+    cmd: [bun scripts/artwork.ts --check]
+    size: small
