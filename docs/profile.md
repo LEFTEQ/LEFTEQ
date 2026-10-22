@@ -26,7 +26,7 @@ The dependency-free Bun preview serves the real README and assets with GitHub-li
 
 ## Content
 
-Use verified public destinations. PultikPublic and ClaudikPublic are public mirrors; avoid describing them as distribution channels or claiming usage from mirror pushes. Do not link private application source or internal PRs. Contact destinations are the LinkedIn and Instagram URLs explicitly approved in the decision log.
+Use verified public destinations. PultikPublic and ClaudikPublic are public mirrors; avoid describing them as distribution channels or claiming usage from mirror pushes. Do not link private application source or internal PRs. Contact destinations are the LinkedIn and Instagram URLs explicitly approved in the decision log ([D5/D9](specs/2026-10-10-profile-decisions.md)); the exact approved URLs are the two in the README's `Connect with me` section.
 
 ## Contribution heatmap
 
