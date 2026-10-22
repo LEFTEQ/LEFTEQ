@@ -4,4 +4,4 @@ Lukáš's public GitHub profile: GitHub renders this repository's root `README.m
 
 Read [docs/profile.md](docs/profile.md) before changing any file here. It is the one owner of the rules and exact commands for the artwork (`scripts/artwork.ts` generates `assets/*.svg`), the local preview, public content and links, the daily contribution chart and the GitHub rendering checks.
 
-[docs/specs/](docs/specs/) holds the dated 2026-10-10 brief and decision log. They are history; the decision log records the approved LinkedIn and Instagram contacts (D5/D9).
+[docs/specs/](docs/specs/) holds the dated 2026-10-10 brief and decision log. They are history; the decision log records the approval of the LinkedIn and Instagram contacts (D5/D9), whose exact URLs are in the README's `Connect with me` section.
